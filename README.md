@@ -32,8 +32,6 @@ establish fraud on their own.
 - **Random state:** 42
 
 The dataset represents historical vehicle insurance claims.
-It is not proprietary data from ICICI Lombard and is not presented
-as an Indian insurer dataset.
 
 ## 3. GitHub repository
 
@@ -84,8 +82,6 @@ The individual metric leaders were:
 - Highest MCC: SVM (0.2657)
 
 The overall ranking is based on the current held-out test results.
-It does not establish production readiness or guarantee performance
-on other datasets.
 
 ## 6. Project files
 
