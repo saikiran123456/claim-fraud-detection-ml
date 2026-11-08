@@ -43,7 +43,7 @@ as an Indian insurer dataset.
 
 [Claim Fraud Detection ML](https://claim-fraud-detection-ml.streamlit.app/)
 
-## 4. Models used and evaluation metrics
+## 5. Models used and evaluation metrics
 
 All five classifiers were evaluated using the same training and testing
 partitions. The fraud class (`1`) was treated as the positive class when
@@ -87,7 +87,7 @@ The overall ranking is based on the current held-out test results.
 It does not establish production readiness or guarantee performance
 on other datasets.
 
-## 5. Project files
+## 6. Project files
 
 - `notebooks/fraud_detection.ipynb` – Data analysis, preprocessing,
   model development and evaluation.
