@@ -39,6 +39,10 @@ as an Indian insurer dataset.
 
 [Project source code and files](https://github.com/YOUR_USERNAME/claim-fraud-detection-ml)
 
+## 4. Streamlit live application deployed:
+
+[Claim Fraud Detection ML](https://claim-fraud-detection-ml.streamlit.app/)
+
 ## 4. Models used and evaluation metrics
 
 All five classifiers were evaluated using the same training and testing
