@@ -1,0 +1,62 @@
+{
+    "project": "Vehicle Insurance Claim Fraud Detection",
+    "dataset_source": "Kaggle - Vehicle Claim Fraud Detection",
+    "dataset_file": "data/fraud_oracle.csv",
+    "dataset_rows": 15420,
+    "dataset_columns_including_target": 33,
+    "predictor_count": 31,
+    "target": "FraudFound_P",
+    "target_distribution": {
+        "0": 14497,
+        "1": 923
+    },
+    "training_records": 12336,
+    "testing_records": 3084,
+    "test_size": 0.2,
+    "random_state": 42,
+    "knn_selected_k": 3,
+    "model_selection_rule": "Highest F1, followed by MCC and AUC",
+    "models": {
+        "Logistic Regression": {
+            "Accuracy": 0.6436,
+            "AUC": 0.8063,
+            "Precision": 0.132,
+            "Recall": 0.8865,
+            "F1": 0.2299,
+            "MCC": 0.2492
+        },
+        "Decision Tree (Entropy)": {
+            "Accuracy": 0.654,
+            "AUC": 0.7979,
+            "Precision": 0.1355,
+            "Recall": 0.8865,
+            "F1": 0.2351,
+            "MCC": 0.2557
+        },
+        "KNN": {
+            "Accuracy": 0.9248,
+            "AUC": 0.5948,
+            "Precision": 0.1385,
+            "Recall": 0.0486,
+            "F1": 0.072,
+            "MCC": 0.0485
+        },
+        "Gaussian Naive Bayes": {
+            "Accuracy": 0.0973,
+            "AUC": 0.5387,
+            "Precision": 0.0608,
+            "Recall": 0.973,
+            "F1": 0.1145,
+            "MCC": 0.0173
+        },
+        "SVM": {
+            "Accuracy": 0.7866,
+            "AUC": 0.829,
+            "Precision": 0.1738,
+            "Recall": 0.6811,
+            "F1": 0.2769,
+            "MCC": 0.2657
+        }
+    },
+    "overall_winner": "SVM"
+}
