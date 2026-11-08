@@ -35,7 +35,7 @@ The dataset represents historical vehicle insurance claims.
 
 ## 3. GitHub repository
 
-[Project source code and files](https://github.com/YOUR_USERNAME/claim-fraud-detection-ml)
+[Project source code and files](https://github.com/saikiran123456/claim-fraud-detection-ml)
 
 ## 4. Streamlit live application deployed:
 
